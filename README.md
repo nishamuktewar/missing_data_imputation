@@ -7,11 +7,11 @@ Traditionally the most common way to deal with missing data has been:
 - interpolation when it comes to time series
 
 ## Thoughts
-It has a very broad application area - structured or timeseries data, images, audio. In terms of verticals, I see quite a few recent papers in the lifesciences/healthcare industry or using medical dataset. Other than the traditional approaches - EM, matrix computation, some form of RNNs, GANs and using auto-encoders have been part of the recent research. One other interesting perspective of missing data is when the data is multi-modal, meaning for some samples we have brain signal data and for some we have let's say brain scans.
+It has a very broad application area - structured or timeseries data, images, audio. In terms of verticals, I see quite a few recent papers in the lifesciences/healthcare industry or using a medical dataset to demonstrate the algorithm. Other than the traditional approaches - EM, matrix computation, some form of RNNs, GANs and using auto-encoders have been part of the recent research. One other interesting perspective of missing data is when the data is multi-modal, meaning for some samples we have brain signal data and for some we have let's say brain scans.
 
 ## Recent papers
 ### arxiv archive
-- Jan 2018, Yoshua Bengio et al. [Efficient EM Training of Gaussian Mixtures with Missing Data (https://arxiv.org/pdf/1209.0521.pdf) - Combining a discriminant algorithm with the generative Gaussian mixture model works better than the Gaussian mixture alone
+- Jan 2018, Yoshua Bengio et al. [Efficient EM Training of Gaussian Mixtures with Missing Data](https://arxiv.org/pdf/1209.0521.pdf) - Combining a discriminant algorithm with the generative Gaussian mixture model works better than the Gaussian mixture alone
 - Nov 2017, [VIGAN: Missing View Imputation with Generative Adversarial Networks](https://arxiv.org/pdf/1708.06724.pdf)
 - Dec 2016, [MISSING DATA IMPUTATION IN THE ELECTRONIC HEALTH RECORD USING DEEPLY LEARNED AUTOENCODERS](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5144587/)
 - Nov 2016, [Recurrent Neural Networks for Missing or Asynchronous Data](https://arxiv.org/pdf/1606.01865.pdf) - Unlike in the case of probabilistic models (e.g. Gaussian) of the missing variables, the network does not attempt to model the distribution of the missing variables given the observed variables. Instead it is a more "discriminant" approach that fills in the missing variables for the sole purpose of minimizing a learning criterion
@@ -33,7 +33,7 @@ Deals with health care data, informative missingness, i.e., the missing values a
 
 ## Criteria
 1. Is it exciting to the team? Would not classify it as exciting but definitely something that needs our attention
-2. Can it be framed as a strong capability (rather than an algorithm)? probably, no
+2. Can it be framed as a strong capability (rather than an algorithm)? probably no
 3. Is it a subject that is more possible now than in two years, and likely to be more possible/transformative still in a couple of years. That usually means some or all of the following things are true:
   i. There is excitement (ideally including concrete breakthroughs) in the research community - maybe
   ii. Economic constraints (e.g. hardware) have lessened/disappeared
