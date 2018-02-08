@@ -7,7 +7,7 @@ Traditionally the most common way to deal with missing data has been:
 - interpolation when it comes to time series
 
 ## Thoughts
-It has a very broad application area - structured or timeseries data, images, audio. In terms of verticals, I see quite a few new papers in the lifesciences/healthcare industry or using medical dataset. Other than the traditional approaches - EM, matrix computation and some form of RNNs and GANs have been part of the recent research. One other interesting perspective of missing data is when the data is multi-modal, meaning for some samples we have brain signal data and for some we have let's say brain scans.
+It has a very broad application area - structured or timeseries data, images, audio. In terms of verticals, I see quite a few new papers in the lifesciences/healthcare industry or using medical dataset. Other than the traditional approaches - EM, matrix computation and some form of RNNs, GANs and using auto-encoders have been part of the recent research. One other interesting perspective of missing data is when the data is multi-modal, meaning for some samples we have brain signal data and for some we have let's say brain scans.
 
 ## Recent papers
 ### arxiv archive
