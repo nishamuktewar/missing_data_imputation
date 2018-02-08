@@ -1,12 +1,22 @@
-# Dealing with missing data
+# Imputation of missing data
 
 Traditionally the most common way to deal with missing data has been:
 - replace the missing with mean or median value. If categorical, the most common class or a separate missing value.
 - include a missing indicator variable
 - exclude observations when one or more variable values are missing
 
-Other approaches:
+## Applications
 
+## Recent papers
+### arxiv archive
+- 
+### ICML archive
+### ICLR archive
+- Jan 2018, [Deep Sensing: Active Sensing using Multi-directional Recurrent Neural Networks](https://openreview.net/pdf?id=r1SnX5xCb)
+- Nov 2016, [Recurrent Neural Networks for Multivariate Time Series with Missing Values](https://openreview.net/pdf?id=BJC8LF9ex)
+Deals with health care data, informative missingness, i.e., the missing values and patterns provide rich information about target labels in supervised learning tasks (e.g, time series classification)
+
+Older papers:
 - Using Gaussian Mixture Models with EM - Using generative model to fill in the missing
 [Supervised learning from incomplete data via an EM approach](http://papers.nips.cc/paper/767-supervised-learning-from-incomplete-data-via-an-em-approach.pdf)
 
