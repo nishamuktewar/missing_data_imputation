@@ -4,9 +4,10 @@ Traditionally the most common way to deal with missing data has been:
 - replace the missing with mean or median value. If categorical, the most common class or a separate missing value.
 - include a missing indicator variable
 - exclude observations when one or more variable values are missing
+- interpolation when it comes to time series
 
 ## Thoughts
-It has a very broad application area - structured or timeseries data, images, audio. In terms of verticals, I see quite a few new papers in the healthcare industry
+It has a very broad application area - structured or timeseries data, images, audio. In terms of verticals, I see quite a few new papers in the healthcare industry or using medical dataset. Other than the traditional approaches - EM, matrix computation and some form of RNN have been part of the recent research.
 
 ## Recent papers
 ### arxiv archive
