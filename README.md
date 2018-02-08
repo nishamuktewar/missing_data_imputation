@@ -9,24 +9,31 @@ Traditionally the most common way to deal with missing data has been:
 
 ## Recent papers
 ### arxiv archive
-- 
+- Nov 2017, [VIGAN: Missing View Imputation with Generative Adversarial Networks](https://arxiv.org/pdf/1708.06724.pdf)
+- Dec 2016, [MISSING DATA IMPUTATION IN THE ELECTRONIC HEALTH RECORD USING DEEPLY LEARNED AUTOENCODERS] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5144587/)
+- Nov 2016, [Recurrent Neural Networks for Missing or Asynchronous Data](https://arxiv.org/pdf/1606.01865.pdf) - Unlike in the case of probabilistic models (e.g. Gaussian) of the missing variables, the network does not attempt to model the distribution of the missing variables given the observed variables. Instead it is a more "discriminant" approach that fills in the missing variables for the sole purpose of minimizing a learning criterion
+- Nov 2016, [Modeling Missing Data in Clinical Time Series with RNNs](https://arxiv.org/pdf/1606.04130.pdf)
+- Oct 2016, [MISSING DATA IMPUTATION FOR SUPERVISED LEARNING](https://arxiv.org/pdf/1610.09075.pdf). This paper is mostly a comparison of results based on NNs, Random Forest, etc. after imputing missing data 
+
 ### ICML archive
+- 2015, [Classification with Low Rank and Missing Data](http://proceedings.mlr.press/v37/hazan15.pdf)
+
 ### ICLR archive
 - Jan 2018, [Deep Sensing: Active Sensing using Multi-directional Recurrent Neural Networks](https://openreview.net/pdf?id=r1SnX5xCb)
 - Nov 2016, [Recurrent Neural Networks for Multivariate Time Series with Missing Values](https://openreview.net/pdf?id=BJC8LF9ex)
 Deals with health care data, informative missingness, i.e., the missing values and patterns provide rich information about target labels in supervised learning tasks (e.g, time series classification)
 
 Older papers:
+- 2010, [Feature Set Embedding for Incomplete Data](https://papers.nips.cc/paper/4047-feature-set-embedding-for-incomplete-data.pdf). Instead of considering examples as feature vectors, they consider examples as sets of (feature, value) pairs which handle the missing feature problem more naturally. In order to classify sets, they propose a new strategy relying on two levels of modeling. At the first level, each (feature, value) is mapped onto an embedding space. At the second level, the set of embedded vectors is compressed onto a single embedded vector over which linear classification is applied.
+
+- [Missing Modalities Imputation via Cascaded Residual Autoencoder](http://cvlab.cse.msu.edu/pdfs/Tran_Liu_Zhou_Jin_CVPR2017.pdf)
 - Using Gaussian Mixture Models with EM - Using generative model to fill in the missing
 [Supervised learning from incomplete data via an EM approach](http://papers.nips.cc/paper/767-supervised-learning-from-incomplete-data-via-an-em-approach.pdf)
 
 - [Efficient EM Training of Gaussian Mixtures with Missing Data](https://arxiv.org/pdf/1209.0521.pdf) - Combining a discriminant algorithm with the generative Gaussian mixture model works better than the Gaussian mixture alone
 
-- [Recurrent Neural Networks for Missing or Asynchronous Data]() - Unlike in the case of probabilistic models (e.g. Gaussian) of the missing variables, the network does not attempt to model the distribution of the missing variables given the observed variables. Instead it is a more "discriminant" approach that fills in the missing variables for the sole purpose of minimizing a learning criterion
 
-- Feature set embedding strategy for classification with missing data - [Feature Set Embedding for Incomplete Data](https://papers.nips.cc/paper/4047-feature-set-embedding-for-incomplete-data.pdf). Instead of considering examples as feature vectors, they consider examples as sets of (feature, value) pairs which handle the missing feature problem more naturally. In order to classify sets, they propose a new strategy relying on two levels of modeling. At the first level, each (feature, value) is mapped onto an embedding space. At the second level, the set of embedded vectors is compressed onto a single embedded vector over which linear classification is applied.
-
-- Causal graphical models depicting the data generating process can serve as a powerful tool for analyzing missing data problems when data is not missing at random (MAR) - [Graphical Models for Inference with Missing Data](https://papers.nips.cc/paper/4899-graphical-models-for-inference-with-missing-data.pdf)
+- Causal graphical models depicting the data generating process can serve as a powerful tool for analyzing missing data problems when data is not missing at random (MAR) - [Graphical Models for Inference with Missing Data (https://papers.nips.cc/paper/4899-graphical-models-for-inference-with-missing-data.pdf)
 
 - [Speech Recognition with Missing Data using Recurrent Neural Nets](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.72.6699&rep=rep1&type=ps)
 
